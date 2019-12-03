@@ -1,0 +1,24 @@
+1. Prepare DB
+   - import sql file named 'sidia.sql' in folder 'sql'
+
+2. Prepare the webservice
+- install java
+- go to Folder 'java'
+- edit file 'application.properties'
+- you can edit code 'spring.datasource.username' and 'spring.datasource.password' like your Database username and password
+- open Command Prompt, go to java directory and type 'java -jar SIDIA-1.0-SNAPSHOT.jar'
+
+3. Prepare Source Code
+- copy folder 'source_code' to your any web-server folder (apache, tomcat.etc)
+- then run in your localhost
+- the login detail is
+
+username: admin
+password: test-123
+
+username: sekolah
+password: test-123
+
+username: penilai
+password: test-123
+
